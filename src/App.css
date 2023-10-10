@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.wrapper{
+  max-width: 1000px;
+  min-height: 600px;
+  margin: 0 auto;
+  background: #53c7ca;
+}
+
+/* ***************************** */
+/* <List/> ここから*/
+/* ***************************** */
+
+.List-h2{
+  padding-top: 30px;
+  font-size: 3rem;
+  color: #1d2c1e;
+}
+
+.today{
+  color: #fff;
+  font-size: 1.8rem;
+  margin: 20px 0 10px 0;
+}
+
+.List-ul{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 30px auto;
+  padding: 30px;
+  width: 400px;
+  background: #fff;
+  border-radius: 20px;
+  word-break: break-all;
+}
+
+.List-li{
+  display:flex;
+  align-items: center;
+  font-size: 1.3rem;
+  list-style: none;
+  text-align: left;
+  margin: 0 50px;
+}
+
+.List-li span{
+  white-space: nowrap;
+}
+
+.List-button{
+  border:none;
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 10px 10px 10px 0px;
+  box-shadow: 0px 3px 5px #494949;
+  border-radius: 10px;
+  top: -5px;
+  left: 0;
+  transition-duration: 0.2s;}
+
+.List-button:hover{
+  left: 0;
+  top: 0;
+  box-shadow: 0 2px 3px #494949;
+}
+
+.Finish-ms{
+  margin-top: 30px;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.Form{
+  margin-top: 30px;
+}
+
+.From-input{
+  display:inline-block;
+  height: 30px;
+  width: 320px;
+}
+
+.submit-button{
+  display: inline-block;
+  padding: 10px 40px;
+  margin: 30px 0 50px 0;
+  background: #b34636;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+}
+
+.submit-button:disabled{
+  background-color: gray;
+  color: darkgray;
+}
+
+.submit-button span{
+  font-size: 18px;
+}
+
+/* ***************************** */
+/* <List/> ここまで*/
+/* ***************************** */
+
+/* ***************************** */
+/* <Fortune/>ここから */
+/* ***************************** */
+
+.Fortune-container{
+  background: #F9E9CB;
+  min-height: 300px;
+}
+
+.Fortune-h2{
+  font-size: 3rem;
+  padding-top: 50px;
+  color: #1d2c1e;
+}
+
+.omikuji-img{
+  width: 300px;
+}
+
+.omikuji-btn{
+  display: block;
+  margin: 30px auto;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 20px;
+  width: 200px;
+  background: #e95404;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.omikuji-btn:hover{
+  background: #ffb700;
+  transition: 0.3s;
+}
+/* ***************************** */
+/* <Fortune/>ここまで */
+/* ***************************** */
+
+
+@media screen and (max-width:700px){
+
+  /* ***************************** */
+  /* <Fortune/>ここから */
+  /* ***************************** */
+
+  .title{
+    padding-top: 30px;
+    font-size: 2rem;
+    color: #1d2c1e;
+  }
+
+  .List-ul{
+    padding: 10px;
+    width: 300px;
+  }
+
+  /* ***************************** */
+  /* <Fortune/>ここまで */
+  /* ***************************** */
+
+  /* ***************************** */
+  /* <Fortune/>ここから */
+  /* ***************************** */
+
+  .Fortune-h2{
+    font-size: 2rem;
+  }
+
+  /* ***************************** */
+  /* <Fortune/>ここまで */
+  /* ***************************** */
+  
+
+}
+
